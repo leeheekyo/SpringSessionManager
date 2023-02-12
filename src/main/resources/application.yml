@@ -1,0 +1,10 @@
+server.port: 8080
+
+spring:
+  session:
+    storage-type: redis
+  redis.data:
+    host: localhost
+    port: 6379
+    username: username
+    password: password
